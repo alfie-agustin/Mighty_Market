@@ -23,7 +23,9 @@ The objects used for the creation of the API are NFT and Users.\
 The NFT object has 6 attributes; id, name, description, creationDate, owner and price. \
 The Owner object has 5 attributes; id, username, creationDate, balance and likes.
 
-### deberia expllicar lo q hace persistance????
+### Persistance:
+
+The persistance file has an important role in the program because is the one who interacts with the db. This file (???????) not only creates the connection with the data base but also helps to communicate with it; From select querys (that absorbs the data from the db), to update and insert new data into the db.
 
 ### Endpoints
 
