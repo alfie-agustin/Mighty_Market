@@ -25,7 +25,7 @@ The Owner object has 5 attributes; id, username, creationDate, balance and likes
 
 ### Persistance:
 
-The persistance file has an important role in the program because is the one who interacts with the db. This file (???????) not only creates the connection with the data base but also helps to communicate with it; From select querys (that absorbs the data from the db), to update and insert new data into the db.
+The persistance file has an important role in the program because is the one who interacts with the db. This file not only creates the connection with the data base but also helps to communicate with it; From select querys (that absorbs the data from the db), to update and insert new data into the db.
 
 ### Endpoints
 
