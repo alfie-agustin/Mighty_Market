@@ -32,7 +32,7 @@ The persistance file has an important role in the program because is the one who
 There are 3 endpoints in the API  and their functions are in the main.\
 The first endpoint is called transfer and is used when theres a sell of an NFT. This function gets the information from the request, such as the nft and the new owner of the NFT.  The first conditional part of the function  of the function checks if all the parameters were given by the consumer. The second part of the function looks for the nft in the db and also looks for the owner, for later changing the owner data in the NFT and the balances of the users, both in the db.\
 The second endpoint  is called mint, and is used when a consumer wants to mint an NFT. After the data was absorbed with the requests library, the function checks if the id of the NFT is already used, if the ID is new, the following step is to check if all the parameters were given, and if every one of them is correct, the NFT proceeds to be inserted in the data base.\
-The third endpoint aims to get the likes amount of an NFT. This function checks if the nfts is in the database, and if is in there, the program will give the amount of likes that this NFT has.D
+The third endpoint aims to get the likes amount of an NFT. This function checks if the nfts is in the database, and if is in there, the program will give the amount of likes that this NFT has.
 
 ## Data base
 
