@@ -15,7 +15,7 @@ Flask: This library helped to easily render the web page and create the endpoint
 Mysql-conector: This one  was used in order to communicate with the data base. Helped the establish the connection, to absorb information with the select querys and insert and update the database with new information.\
 sqlite3: Used for running the different errors.\
 datetime: Used in the classes NFT and owner. The library was used for the datatype in the creationdate attributes, but is also used for creating the id, that are composed from the time (to the thousandth).\
-requests:
+requests: for absorbing the requests objects
 
 ### Objects
 
