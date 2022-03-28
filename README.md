@@ -40,7 +40,9 @@ MySQL is a relational database management system based on SQL.&#x20;
 
 The data based has 3 tables; NFT, Owners and Likes. The NFT table has 6 attributes and the information of all the NFTs; ID (primary key) , Name, Description, Creationdate, Owner(Foreign key), price. The owners table has 4 attributes and has the information of the users; ID (primary key), Username, Creation_date, balance. The last table is called Likes, this one is a pivot table that helps to track the likes amount of the NFTs; the attributes in the table are, ID\_like (primary key), IDOwner (Foreign key) and IDNFT (foreign key)._
 
-### Illustrative image of the data base model![](<.gitbook/assets/WhatsApp Image 2022-03-27 at 3.38.38 AM.jpeg>)
+### Illustrative image of the data base model
+
+![](<.gitbook/assets/Captura de Pantalla 2022-03-28 a la(s) 20.31.27.png>)
 
 
 
